@@ -1,0 +1,27 @@
+{
+  "name": "node-cpp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "node-addon-api": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioyee/node-cpp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/antonioyee/node-cpp/issues"
+  },
+  "homepage": "https://github.com/antonioyee/node-cpp#readme"
+}
